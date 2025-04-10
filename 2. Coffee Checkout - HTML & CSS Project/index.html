@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+    <title>Coffee Masters</title>
+</head>
+<body>
+    <nav class ="main nav">
+        <h1 class = "brand">
+        <img src = https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters_logo.png alt="coffee_masters_logo" class="logo">
+        Coffee Masters
+        </h1>
+    </nav>
+<div class = "main-page">
+    <section class = "basket">
+        <h2 class = "box-title">Items</h2>
+        <ul class = "items">
+            <li class = "item">
+                <div class = "qty">1x</div>
+                <div class = "coffee-type">Cappucino</div>
+                <div class = "price">£4.20</div>
+                <ul class = "coffee-extras">
+                <li class = "coffee-extras-option">Decaf</li>
+                </ul>
+            </li>
+            <li class = "item">
+                <div class = "qty">1x</div>
+                <div class = "coffee-type">Cappucino</div>
+                <div class = "price">£4.50</div>
+                <ul class = "coffee-extras">
+                <li class = "coffee-extras-option">No Cocoa</li>
+                <li class = "coffee-extras-option">Oat Milk</li>
+                </ul>
+            </li>
+            <li class = "item">
+                <div class = "qty">2x</div>
+                <div class = "coffee-type">Quaso</div>
+                <div class = "price">£5.50</div>
+                <ul class = "coffee-extras">
+                <li class = "coffee-extras-option">Jam</li>
+                <li class = "coffee-extras-option">Butter</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section class = "payment-details">
+        <div class = "name-box-box">
+        <h2 class = "box-title">Name</h2>
+        <div class = "user-input-group">
+            <label class = "user-input-label" for="name">Name for order</label>
+            <input type = "text" class = "user-input" id="name" placeholder="Enter Your Name Here"/>
+        </div>
+        </div>
+        <div class = "payment-box-box">
+            <h2 class = "box-title">Payment</h2>
+            <div class = "user-input-group">
+                <label class = "user-input-label" for="cc-number">Card Number</label>
+                <input type = "text" class = "user-input" id="card-number" placeholder="XXXX-XXXX-XXXX-XXXX"/>
+            <div class = "user-input-group">
+                <label class = "user-input-label" for="ccv-number">CCV Number</label>
+                <input type = "text" class = "user-input" id="ccv-number" placeholder="***"/>
+        </div>
+    </section>
+    <section class = "totals">
+      <table class = "basket-totals"  >
+        <tbody>
+            <tr class = "subtotal">
+                <td>Subtotal:</td>
+                <td>£14.20</td>
+            </tr>
+            <tr class = "service-charge">
+                <td>Service Charge:(10%)</td>
+                <td>£1.42</td>
+            </tr>
+            <tr class = "final-total">
+                <td>Total:</td>
+                <td>£15.62</td>
+            </tr>
+        </tbody>
+      </table>
+      <button class "order-button">Place Order</button>
+    </section>
+</div>
+</body>
+</html>

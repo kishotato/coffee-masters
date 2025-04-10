@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #fcf2d7;
+    font-family: Calibri;
+  }
+  
+  .main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #43281c;
+    color: #fcf2d7;
+    font-weight: normal;
+    font-size: 30px;
+    height: 90px;
+  }
+  
+  .logo {
+    width: 35px;
+   position: relative;
+    top: 3px;
+    
+  }
+  
+  .main-page {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "Items" "Name & Payment";
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 10px;
+  }
+  
+  .box {
+    background-color: #f2dcbf;
+    justify-content: space-around;
+    border-radius: 15px;
+    padding: 25px 25px ;
+    margin: 10px;
+  }
+  
+  .user-input-group {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .user-input {
+    border: 2px solid peru;
+    background-color: #f2dcbf;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  .user-input-label {
+    background-color: #f2dcbf;
+    color: black;
+    font-size: 11px;
+    position: absolute;
+    left: 25px;
+    top: -5px;
+    padding: 0 2px;
+  }
+  
+    .items {
+      list-style: none;
+    }
+    
+    .coffee-extras {
+      list-style: none;
+    }
+  
+  .order-button {
+    color: blue;
+  }
+ 
+ 
