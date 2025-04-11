@@ -43,7 +43,7 @@ body {
   background-color: #f7e3e1;
   border-radius: 10px;
   box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
-  padding 15px;
+  padding: 15px;
   margin-bottom: 20px;
   width: 100%;
 }
@@ -104,7 +104,7 @@ body {
   font-size: 15px;
   color: peru;
   margin: 0px;
-  padding 0px;
+  padding: 0px;
   grid-area: extras;
   position: relative;
   right: 75px;
